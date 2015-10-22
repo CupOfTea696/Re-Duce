@@ -4,7 +4,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class ShortLink extends Model
 {
-    
     /**
      * The table associated with the model.
      *
@@ -26,5 +25,4 @@ class ShortLink extends Model
     {
         return $this->hasMany('ReDuce\Models\Click', 'short_link_id', 'short_link_id');
     }
-    
 }

@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;

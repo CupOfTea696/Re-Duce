@@ -1,18 +1,13 @@
 <?php namespace ReDuce\Http\Controllers;
 
-use ReDuce\Http\Requests;
 use ReDuce\Models\ShortLink;
-use ReDuce\Http\Controllers\Controller;
-
 use Illuminate\Http\Request;
-
 use Symfony\Component\HttpFoundation\Response;
 
 class ShortLinkController extends Controller
 {
-    
     /**
-     * Redirect the ShortLink to the mapped URI
+     * Redirect the ShortLink to the mapped URI.
      *
      * @param  string  $slug
      * @return \Illuminate\Http\Response
@@ -68,5 +63,4 @@ class ShortLinkController extends Controller
     {
         //
     }
-    
 }

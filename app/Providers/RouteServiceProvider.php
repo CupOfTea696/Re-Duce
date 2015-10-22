@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Providers;
 
 use Illuminate\Routing\Router;

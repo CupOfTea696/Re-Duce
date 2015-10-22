@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce;
 
 use Illuminate\Auth\Authenticatable;

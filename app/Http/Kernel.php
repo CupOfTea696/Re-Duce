@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;

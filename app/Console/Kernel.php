@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Console;
 
 use Illuminate\Console\Scheduling\Schedule;

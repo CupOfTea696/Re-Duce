@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;

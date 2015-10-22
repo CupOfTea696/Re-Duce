@@ -11,19 +11,19 @@
 |
 */
 
-Route::get('t', function() {
+Route::get('t', function () {
     dd([
         'IP' => $_SERVER['REMOTE_ADDR'],
         'for' => array_get($_SERVER, 'HTTP_X_FORWARDED_FOR'),
         'user_agent' => $_SERVER['HTTP_USER_AGENT'],
         'referrer' => array_get($_SERVER, 'HTTP_REFERER'),
-        $_SERVER
+        $_SERVER,
     ]);
 });
 
 Route::get('{slug}', ['as' => 'shortlink.redirect', 'uses' => 'ShortLinkController@redirect']);
 Route::get('{slug}/stats', ['as' => 'shortlink.show', 'uses' => 'ShortLinkController@show']);
-Route::group(['prefix' => 'api'], function() {
+Route::group(['prefix' => 'api'], function () {
     Route::post('shorten', ['as' => 'shortlink.store', 'uses' => 'ShortLinkController@store']);
     Route::post('{slug}', ['uses' => 'ShortLinkController@store']);
     Route::put('{slug}', ['as' => 'shortlink.update', 'uses' => 'ShortLinkController@update']);

@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Http\Middleware;
 
 use Closure;
