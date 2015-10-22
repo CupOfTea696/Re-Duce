@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;

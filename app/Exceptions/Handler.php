@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Exceptions;
 
 use Exception;

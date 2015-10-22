@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Http\Controllers\Auth;
 
 use ReDuce\Http\Controllers\Controller;

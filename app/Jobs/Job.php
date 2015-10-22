@@ -1,5 +1,4 @@
 <?php
-
 namespace ReDuce\Jobs;
 
 use Illuminate\Bus\Queueable;
